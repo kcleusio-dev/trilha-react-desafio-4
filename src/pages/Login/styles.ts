@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const LoginContainer = styled.div`
     width: 100%;
-    max-width: 420px;
+    max-width: 500px;
     background-color: #FFFFFF;
 
     border-radius: 8px;

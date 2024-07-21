@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
     width: 100%;
-    height: 42px;
+    height: 50px;
     background-color: #81259D;
     color: #FFF;
 
@@ -11,7 +11,10 @@ export const ButtonContainer = styled.button`
     border-radius: 21px;
 
     &:hover {
-        opacity: 0.6;
-        cursor:pointer;
+        opacity: 0.9;
+        cursor: pointer;
     }
+        disabled {
+            opacity:0.2
+        }
 `
